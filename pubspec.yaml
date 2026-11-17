@@ -1,0 +1,32 @@
+# 📄 pubspec.yaml - 赚友吧 7.0 开源版依赖库清单（记录本地存储/网络请求/浏览器内核等插件）
+name: zybapp
+description: "zuanke8.com reader app"
+publish_to: 'none'
+version: 7.0.0+10002
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_inappwebview: ^6.1.5
+  shared_preferences: ^2.5.5
+  http: ^1.6.0
+  html: ^0.15.6
+  charset: ^2.0.1
+  crypto: ^3.0.6
+  url_launcher: ^6.3.2
+  cached_network_image: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
